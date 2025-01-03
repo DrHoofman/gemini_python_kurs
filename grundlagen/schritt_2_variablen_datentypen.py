@@ -61,3 +61,11 @@ while benutzerzahl != geheimzahl:
         print("Zu hoch! Versuche es erneut.")
     else:
         print("Glückwunsch! Du hast die geheime Zahl erraten!")
+
+def begruessung():
+    print("\nHerzlich willkommen zum Gemini Python Kurs!")
+    print("Wir wünschen dir viel Spaß beim Programmieren.")
+
+begruessung()  # Aufruf der Funktion
+
+
