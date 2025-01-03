@@ -49,3 +49,15 @@ else:
 print("\nZahlen von 1 bis 5:")
 for zahl in range(1,6):
     print(zahl)
+
+geheimzahl = 7  # Geheime Zahl
+benutzerzahl = 0  # Benutzereingabe
+
+while benutzerzahl != geheimzahl:
+    benutzerzahl = int(input("\nRate die geheime Zahl (1-10): "))
+    if benutzerzahl < geheimzahl:
+        print("Zu niedrig! Versuche es erneut.")
+    elif benutzerzahl > geheimzahl:
+        print("Zu hoch! Versuche es erneut.")
+    else:
+        print("Glückwunsch! Du hast die geheime Zahl erraten!")
