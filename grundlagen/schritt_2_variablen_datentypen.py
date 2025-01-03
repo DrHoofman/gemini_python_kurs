@@ -69,3 +69,4 @@ def begruessung():
 begruessung()  # Aufruf der Funktion
 
 
+
