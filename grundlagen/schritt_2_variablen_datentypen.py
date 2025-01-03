@@ -46,3 +46,6 @@ if ist_programmierer:
 else:
     print("Vielleicht möchtest du Programmieren lernen!")
 
+print("\nZahlen von 1 bis 5:")
+for zahl in range(1,6):
+    print(zahl)
