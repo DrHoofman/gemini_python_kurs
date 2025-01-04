@@ -1,0 +1,7 @@
+Hallo Stefan!
+das ist meine erste gespeicherte Datei mit Python. 
+viel Erfolg beim Lernen!
+# Datei im Anhängmodus öffnen und Text hinzufügen
+with open("daten.txt", "a") as datei:
+    datei.write("\nHier ist eine neue Zeile!")
+print("Text erfolgreich hinzugefügt!")
