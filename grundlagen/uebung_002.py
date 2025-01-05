@@ -22,4 +22,9 @@ for zahl in range(10):
     if zahl == 5:
         print("Schleife bei 5 gestoppt.")
         break
-      print(zahl)
+    print(zahl)
+
+for zahl in range(10):
+    if zahl % 2 == 0:
+        continue # Überspringt gerade Zahlen
+    print(f"Ungerade Zahl: {zahl}")
