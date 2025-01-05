@@ -1,0 +1,3 @@
+Hallo Stefan!
+Dies ist eine Textdatei.
+Hier ist eine weitere neue geile Zeile!
