@@ -29,8 +29,13 @@ for zahl in range(10):
         continue # Überspringt gerade Zahlen
     print(f"Ungerade Zahl: {zahl}")
 
-for zahl in range(1,21):
+for zahl in range(1, 21):
     if zahl == 7:
-        print("die Zahl ist", zahl)
+        print(f"Die Zahl {zahl} wurde übersprungen.")
+        continue  # Überspringt den Rest des aktuellen Schleifendurchlaufs
+
+    print(f"Die Zahl ist: {zahl}")  # Zahl ausgeben
+
     if zahl == 15:
-        print("die Schleife wurde bei ", zahl, "gestoppt")  
+        print(f"Die Schleife wurde bei der Zahl {zahl} gestoppt.")
+        break  # Beendet die Schleife vollständig
