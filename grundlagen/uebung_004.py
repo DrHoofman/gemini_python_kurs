@@ -37,3 +37,15 @@ for schluessel in person:
 # Nur die Werte ausgeben
 for wert in person.values():
     print(f"Wert: {wert}")
+
+#  Übung 
+# 1.	Erstelle eine Liste mit fünf Zahlen.
+#	2.	Berechne die Summe aller Zahlen mit einer for-Schleife.
+#	3.	Gib die Summe aus.
+zahlen = [7, 8, 9, 23, 45]
+summe = 0
+
+for zahl in zahlen:
+    summe += zahl
+
+print(f"Summe der Zahlen: {summe}")
