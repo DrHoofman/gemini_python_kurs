@@ -26,8 +26,14 @@ person = {
     "Alter": 65,
     "Wohnort": "Altendorf"
 }
+
 for schluessel, wert in person.items():
     print(f"{schluessel}: {wert}")  # Ausgabe: Name: Stefan, Alter: 65, Wohnort: Altendorf
 
+# Nur die Schlüssel ausgeben
 for schluessel in person:
     print(f"Schlüssel: {schluessel}")
+
+# Nur die Werte ausgeben
+for wert in person.values():
+    print(f"Wert: {wert}")
