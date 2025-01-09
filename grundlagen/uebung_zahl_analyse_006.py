@@ -1,4 +1,7 @@
-def zahl_analyse(zahl):
+def zahl_analyse():
+  # Benutzeraufforderung zur Eingabe einer Zahl
+    zahl = int(input("Bitte gib eine Zahl ein: "))
+
     if zahl > 0:
         print(f"Die Zahl {zahl} ist positiv.")
         # Schleife zum Ausgeben der Zahlen von 1 bis zur eingegebenen Zahl
@@ -10,4 +13,4 @@ def zahl_analyse(zahl):
     else:
         print(f"Die Zahl {zahl} ist 0.")
 
-zahl_analyse(7)
+zahl_analyse()
